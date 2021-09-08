@@ -1,0 +1,84 @@
+<table style="width: 100%">
+  <tr>
+    <td>
+      <button (click)="btnUSA()">U.S.A</button>
+    </td>
+    <td>
+      <button (click)="btnCanada()">Canada</button>
+    </td>
+    <td>
+      <button (click)="btnIndia()">India</button>
+    </td>
+    <td>
+      <button (click)="btnSriLanka()">Sri Lanka</button>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <button (click)="btnChina()">Chaina</button>
+    </td>
+    <td>
+      <button (click)="btnSingapore()">Singapore</button>
+    </td>
+    <td>
+      <button (click)="btnVietnam()">Vietnam</button>
+    </td>
+    <td>
+      <button (click)="btnIndonesia()">Indonesia</button>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <button (click)="btnBrazil()">Brazil</button>
+    </td>
+    <td>
+      <button (click)="btnBangladesh()">Bangladesh</button>
+    </td>
+    <td>
+      <button (click)="btnRussia()">Russia</button>
+    </td>
+    <td>
+      <button (click)="btnMexico()">Mexico</button>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <button (click)="btnJapan()">Japan</button>
+    </td>
+    <td>
+      <button (click)="btnEthiopia()">Ethiopia</button>
+    </td>
+    <td>
+      <button (click)="btnPhilippines()">Philippines</button>
+    </td>
+    <td>
+      <button (click)="btnEgypt()">Egypt</button>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <button (click)="btnTurkey()">Turkey</button>
+    </td>
+    <td>
+      <button (click)="btnIran()">Iran</button>
+    </td>
+    <td>
+      <button (click)="btnItaly()">Italy</button>
+    </td>
+    <td>
+      <button (click)="btnFrance()">France</button>
+    </td>
+  </tr>
+</table>
+
+<div
+  echarts
+  [options]="options"
+  [merge]="mergeOptions"
+  [loading]="false"
+  class="demo-chart"
+></div>
